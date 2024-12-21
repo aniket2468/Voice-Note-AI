@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.className} lg:overflow-hidden lg:h-screen`}>
         <AuthProvider>
           <ThemeProvider
             attribute="class"
